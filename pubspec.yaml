@@ -1,0 +1,52 @@
+name: samurai_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.2+3
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.1
+  flutter_svg: ^2.0.2
+  web3dart: ^2.6.1
+  http: ^0.13.5
+  hex: ^0.2.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  provider: ^6.0.5
+  dio: ^5.0.1
+  trust_wallet_core_lib: ^0.0.6+2.9.6
+  qr_flutter: ^4.0.0
+  package_info_plus: ^3.0.3
+  wheel_chooser: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/pages/
+    - assets/pages/account/
+    - assets/pages/create_wallet/
+    - assets/pages/homepage/
+    - assets/pages/homepage/heroes/
+    - assets/pages/homepage/samurai/
+    - assets/pages/homepage/craft/
+    - assets/pages/start/
+
+  fonts:
+    - family: AmazObitaemOstrovItalic
+      fonts:
+        - asset: fonts/AmazOOSTROVItalic.ttf
